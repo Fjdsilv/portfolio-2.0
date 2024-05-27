@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <div className="flex items-center bg-white h-screen">
        <div className="align-element">
-            <article className="flex flex-col items-center">
-                <h1 className="xl:text-7xl md:text-6xl text-5xl font-bold tracking-wider">I'm Felipe Silva</h1>
-                <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">Full Stack Developer</p>
-                <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">Hard work, clean code and great results</p>
+            <article className="text-center flex flex-col items-center">
+                <h1 className="text-center xl:text-7xl md:text-6xl text-5xl font-bold tracking-wider">I'm Felipe Silva</h1>
+                <p className="text-center mt-4 text-3xl text-slate-700 capitalize tracking-wide">Full Stack Developer</p>
+                <p className="text-center mt-2 text-lg text-slate-700 capitalize tracking-wide">Hard work, clean code and great results</p>
                 <div className="flex gap-x-4 mt-4">
                     <a href="https://github.com/Fjdsilv" target='_blank'>
                         <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300"/>

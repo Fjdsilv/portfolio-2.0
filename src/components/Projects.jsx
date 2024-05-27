@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
             {
                 projects.map((project) => {
-                    return <ProjectsCard id={project.id} {...project} />
+                    return <ProjectsCard key={project.id} {...project} />
                 })
             }
         </div>

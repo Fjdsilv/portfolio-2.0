@@ -41,9 +41,9 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'ASP.NET Core',
+    title: '.NET',
     icon: <SiCsharp className='h-16 w-16 text-blue-500' />,
-    text: 'Good proficiency in C#, developing efficient and interactive full-stack applications with React and .NET Core.',
+    text: 'Good proficiency in C#, developing efficient and interactive full-stack applications with React and 	ASP.NET Core.',
   },
   // add typescript
 ];

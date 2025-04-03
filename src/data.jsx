@@ -11,9 +11,15 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-blue-500' />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    title: '.NET',
+    icon: <SiCsharp className='h-16 w-16 text-blue-500' />,
+    text: 'Good proficiency in C#, developing efficient and interactive full-stack applications with ASP.NET Core web API and React.',
+  },
+  {
+    id: nanoid(),
+    title: 'Node.js',
+    icon: <FaNode className='h-16 w-16 text-blue-500' />,
+    text: 'Beginner level skills in NodeJs, developing efficient and interactive full-stack applications with React.',
   },
   {
     id: nanoid(),
@@ -35,15 +41,9 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'Node.js',
-    icon: <FaNode className='h-16 w-16 text-blue-500' />,
-    text: 'Middle skills in NodeJs, developing efficient and interactive full-stack applications with React.',
-  },
-  {
-    id: nanoid(),
-    title: '.NET',
-    icon: <SiCsharp className='h-16 w-16 text-blue-500' />,
-    text: 'Good proficiency in C#, developing efficient and interactive full-stack applications with React and 	ASP.NET Core.',
+    title: 'HTML&CSS',
+    icon: <FaHtml5 className='h-16 w-16 text-blue-500' />,
+    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
   // add typescript
 ];
@@ -52,10 +52,59 @@ export const projects = [
   {
     id: nanoid(),
     // img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://github.com/Fjdsilv/user-search',
+    github: 'https://github.com/Fjdsilv/user-search',
+    title: 'ShiftLoggerApp',
+    text: 'ShiftLoggerApp is an ASP.NET Core Console application that Implement HTTP operations CRUD based on HttpClient(GET, POST, PUT and DELETE) with minimalAPI, EFCore, SqlServer and MVC pattern partially.',
+  },
+  {
+    id: nanoid(),
+    // img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://github.com/Fjdsilv/user-search',
+    github: 'https://github.com/Fjdsilv/user-search',
+    title: 'TheCocktaildbWebAPIClientApp',
+    text: 'TheCocktaildbWebAPIClientApp is a .NET Core Console application that Implement HTTP operations clients based on HttpClient with external Cocktails DB-API.',
+  },
+  {
+    id: nanoid(),
+    // img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://github.com/Fjdsilv/user-search',
+    github: 'https://github.com/Fjdsilv/user-search',
+    title: 'GymTrackerApp',
+    text: 'GymTrackerApp is a .NET Core Console application that implement CRUD operations with EntityFrameworkCore, SqlServer and Repository Pattern.',
+  },
+  {
+    id: nanoid(),
+    // img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://github.com/Fjdsilv/user-search',
+    github: 'https://github.com/Fjdsilv/user-search',
+    title: 'AutoRepairOrderListApp',
+    text: 'AutoRepairOrderListApp is a .NET Core Console application that implement CRUD operations with DapperORM, Sqlite and MVC pattern partially.',
+  },
+  {
+    id: nanoid(),
+    // img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://github.com/Fjdsilv/user-search',
+    github: 'https://github.com/Fjdsilv/user-search',
+    title: 'BicycleWarehouseSystemDemoApp',
+    text: 'BicycleWarehouseSystemDemoApp is a .NET Core Console application that implement CRUD operations with EntityFrameworkCore, Sqlite and MVC pattern partially.',
+  },
+  {
+    id: nanoid(),
+    // img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    url: 'https://github.com/Fjdsilv/user-search',
+    github: 'https://github.com/Fjdsilv/user-search',
+    title: 'CodingTrackerApp',
+    text: 'CodingTrackerApp is a .NET Core Console application that implement CRUD operations with Sqlite raw and MVC pattern partially.',
+  },
+  // C# START HERE
+  {
+    id: nanoid(),
+    // img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
     url: 'https://joyful-smakager-949ff9.netlify.app/',
     github: 'https://github.com/Fjdsilv/user-search',
     title: 'github search',
-    text: 'github search is a dummy project build with React(useState, useEffect, ContextAPI and useReducer), React-Router-Dom, github-API, Tailwindcss and DaisyUI Responsive.',
+    text: 'github search is a dummy project Built with React(useState, useEffect, ContextAPI and useReducer), React-Router-Dom, github-API, Tailwindcss and DaisyUI Responsive.',
   },
   {
     id: nanoid(),
@@ -63,7 +112,7 @@ export const projects = [
     url: 'https://glowing-axolotl-89543f.netlify.app/',
     github: 'https://github.com/Fjdsilv/BAV-mini-bank/',
     title: 'BAV Mini Bank',
-    text: 'BAV Mini Bank Is A Dummy Project Build With React(UseState), Redux(Toolkit and Thunk), React-Router-Dom, Frankfurter-API, Tailwindcss and DaisyUI Responsive.',
+    text: 'BAV Mini Bank Is A Dummy Project Built With React(UseState), Redux(Toolkit and Thunk), React-Router-Dom, Frankfurter-API, Tailwindcss and DaisyUI Responsive.',
   },
   {
     id: nanoid(),
@@ -71,7 +120,7 @@ export const projects = [
     url: 'https://neon-cajeta-4e64ef.netlify.app/',
     github: 'https://github.com/Fjdsilv/BuddyBear-Brewery/',
     title: 'BuddyBear Brewery',
-    text: 'BuddyBear Brewery is a dummy project build with React(useState, useEffect, ContextAPI and useReducer), React-Router-Dom, Axios, Open Brewery DB-API, Tailwindcss and DaisyUI Responsive.',
+    text: 'BuddyBear Brewery is a dummy project Built with React(useState, useEffect, ContextAPI and useReducer), React-Router-Dom, Axios, Open Brewery DB-API, Tailwindcss and DaisyUI Responsive.',
   },
   {
     id: nanoid(),
@@ -79,7 +128,7 @@ export const projects = [
     url: 'https://buddy-drinks.vercel.app/',
     github: 'https://github.com/Fjdsilv/buddy-drinks',
     title: 'buddy drinks',
-    text: 'buddy drinks is a dummy project build with React, React-Router-Dom, Axios, React-Query(client), Cocktails DB-API and Styled-components Responsive.',
+    text: 'buddy drinks is a dummy project Built with React, React-Router-Dom, Axios, React-Query(client), Cocktails DB-API and Styled-components Responsive.',
   },
   {
     id: nanoid(),
@@ -87,7 +136,7 @@ export const projects = [
     url: 'https://polite-sable-7e312e.netlify.app/',
     github: 'https://github.com/Fjdsilv/pizza-recipe-directory/',
     title: 'Pizza Recipe Directory',
-    text: 'Pizza Recipe Directory is a dummy project build with React(useState and ContextAPI), React-Router-Dom, HTML and CSS Responsive.',
+    text: 'Pizza Recipe Directory is a dummy project Built with React(useState and ContextAPI), React-Router-Dom, HTML and CSS Responsive.',
   },
   {
     id: nanoid(),
@@ -95,7 +144,7 @@ export const projects = [
     url: 'https://deluxe-dodol-cf1cf0.netlify.app/',
     github: 'https://github.com/Fjdsilv/unsplash-like-images',
     title: 'unsplash like images',
-    text: 'unsplash like images Is A Dummy Project Build With React(UseState, UseEffect and ContextAPI), React-Query(Client), axios, unsplash-API, HTML and CSS(Flexbox and Grid) Responsive.',
+    text: 'unsplash like images Is A Dummy Project Built With React(UseState, UseEffect and ContextAPI), React-Query(Client), axios, unsplash-API, HTML and CSS(Flexbox and Grid) Responsive.',
   },
   {
     id: nanoid(),
@@ -103,7 +152,7 @@ export const projects = [
     url: 'https://chic-praline-de47aa.netlify.app/',
     github: 'https://github.com/Fjdsilv/Buddy-shop-cart/',
     title: 'Buddy Shop Cart',
-    text: 'Buddy Shop Cart Is A Dummy Project Build With React(UseState), Redux(Toolkit and Thunk),  Dummy-API, HTML and CSS(Grid) Responsive.',
+    text: 'Buddy Shop Cart Is A Dummy Project Built With React(UseState), Redux(Toolkit and Thunk),  Dummy-API, HTML and CSS(Grid) Responsive.',
   },
   {
     id: nanoid(),
@@ -111,7 +160,7 @@ export const projects = [
     url: 'https://legendary-manatee-d0a784.netlify.app/',
     github: 'https://github.com/Fjdsilv/Buddy-Movie-Search/',
     title: 'Buddy Movie Search',
-    text: 'Buddy Movie Search is a dummy project build with React(useState and useEffect), OMDb-API, localStorage and React Boostrap Responsive.',
+    text: 'Buddy Movie Search is a dummy project Built with React(useState and useEffect), OMDb-API, localStorage and React Boostrap Responsive.',
   },
   {
     id: nanoid(),
@@ -119,7 +168,7 @@ export const projects = [
     url: 'https://buddy-mini-blog.vercel.app/',
     github: 'https://github.com/Fjdsilv/buddy-mini-blog/',
     title: 'Buddy Mini Blog',
-    text: 'Buddy Mini Blog Is A Project Build With React(UseState And UseEffect), Redux(Toolkit), Axios, GNews-API, React-Oauth/Google And Material-UI Responsive.',
+    text: 'Buddy Mini Blog Is A Project Built With React(UseState And UseEffect), Redux(Toolkit), Axios, GNews-API, React-Oauth/Google And Material-UI Responsive.',
   },
   {
     id: nanoid(),
@@ -127,7 +176,7 @@ export const projects = [
     url: 'https://stirring-stardust-b3cf55.netlify.app/',
     github: 'https://github.com/Fjdsilv/social-media-invite/',
     title: 'Social Media Invite',
-    text: 'Social Media Invite Is A Dummy Project Build With React(UseState), Redux(Toolkit),  HTML And CSS(Flexbox) Responsive.',
+    text: 'Social Media Invite Is A Dummy Project Built With React(UseState), Redux(Toolkit),  HTML And CSS(Flexbox) Responsive.',
   },
   {
     id: nanoid(),
@@ -135,7 +184,7 @@ export const projects = [
     url: 'https://weather-buddy-jet.vercel.app/',
     github: 'https://github.com/Fjdsilv/weather-buddy',
     title: 'weather buddy',
-    text: 'weather buddy is a project build with React(useState and useEffect), axios, OpenWeatherMap-API, HTML and CSS(Flexbox) responsive.',
+    text: 'weather buddy is a project Built with React(useState and useEffect), axios, OpenWeatherMap-API, HTML and CSS(Flexbox) responsive.',
   },
   {
     id: nanoid(),
@@ -143,7 +192,7 @@ export const projects = [
     url: 'https://famous-cassata-89f522.netlify.app/',
     github: 'https://github.com/Fjdsilv/buddy-shop/',
     title: 'Buddy Shop',
-    text: 'Buddy Shop is a project build with React(useState, ContextAPI and useReducer), React-Router-Dom, HTML and CSS responsive.',
+    text: 'Buddy Shop is a project Built with React(useState, ContextAPI and useReducer), React-Router-Dom, HTML and CSS responsive.',
   },
   {
     id: nanoid(),
@@ -151,7 +200,7 @@ export const projects = [
     url: 'https://shop-cart-pi-three.vercel.app/',
     github: 'https://github.com/Fjdsilv/shop-cart/',
     title: 'Shop Cart',
-    text: 'Shop Cart is a project build with React(useState, ContextAPI and useReducer), Dummy-API, HTML and CSS(Flexbox and Grid) responsive.',
+    text: 'Shop Cart is a project Built with React(useState, ContextAPI and useReducer), Dummy-API, HTML and CSS(Flexbox and Grid) responsive.',
   },
   {
     id: nanoid(),
@@ -159,7 +208,7 @@ export const projects = [
     url: 'https://feedback-rate-dummy.vercel.app/',
     github: 'https://github.com/Fjdsilv/feedback-rate-dummy',
     title: 'feedback rate Dummy',
-    text: 'feedback rate Dummy is a project build with React(useState, useEffect, useReducer and ContextAPI), HTML and CSS(Flexbox) responsive.',
+    text: 'feedback rate Dummy is a project Built with React(useState, useEffect, useReducer and ContextAPI), HTML and CSS(Flexbox) responsive.',
   },
   {
     id: nanoid(),
@@ -167,7 +216,7 @@ export const projects = [
     url: 'https://friends-split-bill.vercel.app/',
     github: 'https://github.com/Fjdsilv/friends-split-bill',
     title: 'friends split bill',
-    text: 'friends split bill is a project build with React(useState), HTML and CSS(Flexbox) responsive.',
+    text: 'friends split bill is a project Built with React(useState), HTML and CSS(Flexbox) responsive.',
   },
   {
     id: nanoid(),
@@ -175,7 +224,7 @@ export const projects = [
     url: 'https://to-do-list-lime-gamma.vercel.app/',
     github: 'https://github.com/Fjdsilv/to-do-list',
     title: 'To-Do List',
-    text: 'To-Do List is a project build with React(useState), LocalStorage, HTML and CSS(Grid) responsive.',
+    text: 'To-Do List is a project Built with React(useState), LocalStorage, HTML and CSS(Grid) responsive.',
   },
   {
     id: nanoid(),
@@ -183,7 +232,7 @@ export const projects = [
     url: 'https://buddy-sticky-notes.vercel.app/',
     github: 'https://github.com/Fjdsilv/buddy-sticky-notes',
     title: 'buddy sticky notes',
-    text: 'buddy sticky notes is a project build with React(useState and useEffect), LocalStorage and Tailwindcss responsive.',
+    text: 'buddy sticky notes is a project Built with React(useState and useEffect), LocalStorage and Tailwindcss responsive.',
   },
   {
     id: nanoid(),
@@ -191,7 +240,7 @@ export const projects = [
     url: 'https://tubular-belekoy-351d9c.netlify.app/',
     github: 'https://github.com/Fjdsilv/Blog-Post-Dummy',
     title: 'Blog Post Dummy',
-    text: 'Blog Post Dummy is a project build with React(useState), LocalStorage, HTML and CSS responsive.',
+    text: 'Blog Post Dummy is a project Built with React(useState), LocalStorage, HTML and CSS responsive.',
   },
   {
     id: nanoid(),
@@ -199,7 +248,7 @@ export const projects = [
     url: 'https://supermarket-list-roan.vercel.app/',
     github: 'https://github.com/Fjdsilv/supermarket-list',
     title: 'supermarket list',
-    text: 'supermarket list is a project build with React(useState), HTML and CSS(Flexbox) responsive.',
+    text: 'supermarket list is a project Built with React(useState), HTML and CSS(Flexbox) responsive.',
   },
   {
     id: nanoid(),
@@ -207,7 +256,7 @@ export const projects = [
     url: 'https://stalwart-bienenstitch-42114e.netlify.app/',
     github: 'https://github.com/Fjdsilv/lorem-ipsum-dummy',
     title: 'Lorem Ipsum Dummy',
-    text: 'Lorem Ipsum Dummy is a project build with React(useState), HTML and CSS responsive.',
+    text: 'Lorem Ipsum Dummy is a project Built with React(useState), HTML and CSS responsive.',
   },
   {
     id: nanoid(),
@@ -215,7 +264,7 @@ export const projects = [
     url: 'https://rock-paper-scissors-theta-eight.vercel.app/',
     github: 'https://github.com/Fjdsilv/rock-paper-scissors/',
     title: 'rock paper scissors',
-    text: 'rock paper scissors is a project build with React(useState and useEffect), HTML and CSS(Grid) responsive.',
+    text: 'rock paper scissors is a project Built with React(useState and useEffect), HTML and CSS(Grid) responsive.',
   },
   {
     id: nanoid(),
@@ -223,7 +272,7 @@ export const projects = [
     url: 'https://saints-memory-game.vercel.app/',
     github: 'https://github.com/Fjdsilv/saints-memory-game/',
     title: 'saints memory game',
-    text: 'saints memory game is a project build with React(useState and useEffect), HTML and CSS(Grid) responsive.',
+    text: 'saints memory game is a project Built with React(useState and useEffect), HTML and CSS(Grid) responsive.',
   },
   {
     id: nanoid(),
@@ -231,7 +280,7 @@ export const projects = [
     url: 'https://dashing-elf-9dec2a.netlify.app/',
     github: 'https://github.com/Fjdsilv/Metalurgica-Veneza-landpage',
     title: 'Metalúrgica Veneza',
-    text: 'Metalúrgica Veneza is a landPage build with HTML, CSS, Bootstrap, VanillaJS, JQuery, ScrollReveal.js and baguetteBox.js Responsive.',
+    text: 'Metalúrgica Veneza is a landPage Built with HTML, CSS, Bootstrap, VanillaJS, JQuery, ScrollReveal.js and baguetteBox.js Responsive.',
   },
   {
     id: nanoid(),
@@ -239,7 +288,7 @@ export const projects = [
     url: 'https://eloquent-genie-33d6b3.netlify.app/',
     github: 'https://github.com/Fjdsilv/portfolio-1.0',
     title: 'Felipe Silva Portfolio 1.0',
-    text: 'Felipe Silva Portfolio 1.0 is landPage build with HTML, CSS(Flexbox), Normalizecss and VanillaJS  Responsive.',
+    text: 'Felipe Silva Portfolio 1.0 is landPage Built with HTML, CSS(Flexbox), Normalizecss and VanillaJS  Responsive.',
   },
   {
     id: nanoid(),
@@ -247,7 +296,7 @@ export const projects = [
     url: 'https://brilliant-daffodil-e66f19.netlify.app/',
     github: 'https://github.com/Fjdsilv/Fast-Pizza-Delivery-landpage',
     title: 'Fast Pizza Delivery',
-    text: 'Fast Pizza Delivery is a dummy landPage build with HTML, CSS, Normalizecss, VanillaJS, JQuery, and ScrollReveal.js Responsive.',
+    text: 'Fast Pizza Delivery is a dummy landPage Built with HTML, CSS, Normalizecss, VanillaJS, JQuery, and ScrollReveal.js Responsive.',
   },
   {
     id: nanoid(),
@@ -255,7 +304,7 @@ export const projects = [
     url: 'https://luminous-paprenjak-c23822.netlify.app/',
     github: 'https://github.com/Fjdsilv/IPromise-Co-landpage/',
     title: 'IPromise Co.',
-    text: 'IPromise Co. is a dummy landPage build with HTML, CSS, Normalizecss, VanillaJS, JQuery, and ScrollReveal.js Responsive.',
+    text: 'IPromise Co. is a dummy landPage Built with HTML, CSS, Normalizecss, VanillaJS, JQuery, and ScrollReveal.js Responsive.',
   },
   {
     id: nanoid(),
@@ -263,7 +312,7 @@ export const projects = [
     url: 'https://dainty-sorbet-47aecb.netlify.app/',
     github: 'https://github.com/Fjdsilv/Classic-Barbershop-landpage',
     title: 'Classic Barbershop',
-    text: 'Classic Barbershop is a dummy landPage build with HTML, CSS(Flexbox), Normalizecss, VanillaJS, JQuery, ScrollReveal.js and Owl Carousel Library Responsive.',
+    text: 'Classic Barbershop is a dummy landPage Built with HTML, CSS(Flexbox), Normalizecss, VanillaJS, JQuery, ScrollReveal.js and Owl Carousel Library Responsive.',
   },
   {
     id: nanoid(),
@@ -271,6 +320,6 @@ export const projects = [
     url: 'https://steady-baklava-bb68df.netlify.app/',
     github: 'https://github.com/Fjdsilv/Ferrari-F40-Tribute-landpage',
     title: 'Ferrari F40 Tribute',
-    text: 'Ferrari F40 Tribute is a Dummmy LandPage build with HTML, CSS and Tailwindcss Responsive.',
+    text: 'Ferrari F40 Tribute is a Dummmy LandPage Built with HTML, CSS and Tailwindcss Responsive.',
   },
 ];

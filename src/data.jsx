@@ -17,15 +17,15 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: 'Node.js',
-    icon: <FaNode className='h-16 w-16 text-blue-500' />,
-    text: 'Beginner level skills in NodeJs, developing efficient and interactive full-stack applications with React.',
+    title: 'Javascript',
+    icon: <FaJs className='h-16 w-16 text-blue-500' />,
+    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and 	functionality.',
   },
   {
     id: nanoid(),
-    title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-blue-500' />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality.',
+    title: 'Node.js',
+    icon: <FaNode className='h-16 w-16 text-blue-500' />,
+    text: 'Beginner level skills in NodeJs, developing efficient and interactive full-stack applications with React.',
   },
   {
     id: nanoid(),
